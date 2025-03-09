@@ -1,0 +1,62 @@
+{
+    "manufacturer": "Ian Burgmyer",
+    "keyboard_name": "controllermax",
+    "maintainer": "Spectere",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP0", null],
+            ["GP1", null],
+
+            ["GP2", null],
+            ["GP3", null],
+            ["GP4", null],
+            ["GP5", "GP28"],
+
+            ["GP6", "GP27"],
+            ["GP7", "GP26"],
+            ["GP8", null],
+            ["GP9", "GP22"],
+
+            ["GP10", "GP21"],
+            ["GP11", "GP20"],
+            ["GP12", "GP19"],
+            ["GP13", "GP18"],
+
+            ["GP14", "GP17"],
+            ["GP15", "GP16"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0xBEA7",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "L1", "matrix": [ 0, 0],  "x":  0, "y": 1},
+                {"label": "L2", "matrix": [ 1, 0],  "x":  1, "y": 1},
+                {"label": "L3", "matrix": [ 2, 0],  "x":  2, "y": 1},
+                {"label": "L4", "matrix": [ 3, 0],  "x":  3, "y": 1},
+                {"label": "L5", "matrix": [ 4, 0],  "x":  4, "y": 2},
+                {"label": "C1", "matrix": [ 5, 0],  "x":  5, "y": 0},
+                {"label": "C2", "matrix": [ 6, 0],  "x":  6, "y": 0},
+                {"label": "R1", "matrix": [ 7, 0],  "x":  7, "y": 2},
+                {"label": "R2", "matrix": [ 8, 0],  "x":  8, "y": 1},
+                {"label": "R3", "matrix": [ 9, 0],  "x":  9, "y": 1},
+                {"label": "R4", "matrix": [10, 0],  "x": 10, "y": 1},
+                {"label": "R5", "matrix": [11, 0],  "x": 11, "y": 1},
+                {"label": "Fn", "matrix": [12, 0],  "x": 12, "y": 3}
+            ]
+        }
+    }
+}
