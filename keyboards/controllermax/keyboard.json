@@ -38,7 +38,8 @@
     "usb": {
         "device_version": "1.0.0",
         "pid": "0xBEA7",
-        "vid": "0xFEED"
+        "vid": "0xFEED",
+        "force_nkro": true
     },
     "layouts": {
         "LAYOUT": {
